@@ -1,0 +1,39 @@
+@import url("reset.css");
+a {
+	color: red;
+}
+#block-two{
+	color: yellowgreen;
+}
+.top-li,h1 {
+	color: brown;
+}
+.block .text-short{
+	color: blueviolet;
+}
+.text-short {
+}
+.sub-block {
+	color: blue;
+}
+.text > p{
+	color: darkred;
+}
+.text-span span{
+	color: cornflowerblue;
+}
+.list *{
+	color: darkmagenta;
+}
+.text+p{
+	color: darkkhaki;
+}
+.sub-block.text~p{
+	color: crimson;
+}
+.block-5 .text-span{
+	color: magenta;
+}
+div.text{
+	color: red;
+}
