@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("reset.css");
+body{
+	font-family: "Inter";
+}
+.list-menu{
+	color: #1e0672;
+	font-size: 30px;
+}
+.block-one {
+	max-width: 692px;
+	margin: 0 auto 50px;
+}
+.conference{
+	margin-bottom: 37px;
+}
+.title {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 30px;
+	color: #37393f;
+	text-transform: capitalize;
+	line-height: 1.27;
+	margin-bottom: 3px;
+}
+.business .text{
+	margin-bottom: 42px;
+}
+.text p{
+	color: #7d7d7d;
+	text-align: justify;
+	line-height: 1.46;
+}
+.sub-title {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 20px;
+	color: #6b77e5;
+	line-height: 1.27;
+}
+.business .sub-title{
+	margin-bottom: 12px;
+}
+.benefits{
+	display: inline-block;
+}
+.desktop-img{
+	margin-right: 29px;
+}
+.title-benefits {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 25px;
+	color: #37393f;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+.benefits .sub-title{
+	color: #40ddb6;
+	margin-bottom: 21px;
+}
+.list {
+	line-height: normal;
+}
+li{
+	margin-bottom: 30px;
+}
+.block-two {
+	max-width: 1178px;
+	margin: 0 auto 50px;
+}
+.content-text{
+	max-width: 563px;
+	display: inline-block;
+	margin-right: 38px;
+	padding-top: 38px;
+}
+.title-one {
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #d06b00;
+	margin-bottom: 13px;
+}
+.title-jewels {
+	font-family: "DM Serif Text";
+	font-size: 59px;
+	color: #0e333d;
+	line-height: 1.47;
+	margin-bottom: 25px;
+}
+.left{
+	margin-right: 22px;
+}
+.content-text .text p {
+	font-size: 20px;
+	color: #474747;
+	text-align: unset;
+	line-height: 1.8;
+}
+/* Практика */
+.bloch-three {
+	font-family: "Popping";
+	font-size: 20px;
+	font-weight: 600;
+}
+.sub-block{
+	margin-bottom: 30px;
+}
+.lorem {
+	display: inline-block;
+	color: brown;
+	max-width: 300px;
+	margin-right: 30px;
+	padding-left: 10px;
+	overflow: scroll;
+	max-height: 200px;
+}
+.ipsum {
+	display: inline-block;
+	color: #d06b00;
+	margin-right: 30px;
+	vertical-align: top;
+}
+.dolor {
+	display: inline-block;
+	color: #1e0672;
+	max-width: 300px;
+	vertical-align: top;
+}
+.block-lorem{
+	max-width: 1100px;
+	padding: 50px;
+}
+.block-lorem div{
+	margin-bottom: 20px;
+}
+.amet {
+	color: rgb(233, 14, 32);
+}
+.fugit {
+	color: darkorchid;
+}
+.aperiam {
+	color: darkgreen;
+	
+}
