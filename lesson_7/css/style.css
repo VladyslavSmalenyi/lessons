@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+header{
+	margin-bottom: 50px;
+}
+.consulting {
+	max-width: 1218px;
+	font-family: "Inter", sans-serif;
+	margin: 0 auto 150.5px;
+}
+.minititle {
+	max-width: 202px;
+	margin: 0 auto 16px;
+	color: #37393f;
+	font-weight: 500;
+	font-size: 0;
+}
+.template{
+	display: inline-block;
+	font-size: 18px;
+}
+.square{
+	padding-top: 2px;
+	margin-right: 6px;
+}
+.title,.graphics,.phosphor{
+	font-family:"Poppins", sans-serif;
+	font-weight:700;
+	color: #37393f;
+}
+p{
+	line-height: 1.46;
+}
+.title {
+	font-size: 60px;
+	margin-bottom: 70px;
+	line-height: 1.21;
+	text-align: center;
+}
+.graphics{
+	font-size: 40px;
+	margin-bottom: 11px;
+}
+.text-graphics{
+	margin-bottom: 32px;
+}
+.name{
+	margin-bottom: 8px;
+}
+.phosphor{
+	font-size: 30px;
+}
+.block {
+	margin-bottom: 100px;
+}
+.text-color,a,span{
+	color: #40ddb6;
+}
+.sub-block {
+	margin-bottom: 24px;
+}
+.consulting-two {
+	max-width: 830px;
+	margin: 0 auto;
+	font-family: "Inter",sans-serif;
+	color: #7d7d7d;
+}
+.title-project {
+	font-family:"Poppins",sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #37393f;
+	line-height: 1.27;
+	margin-bottom: 13px;
+}
+.sub-project {
+	margin-bottom: 35px;
+   line-height: 1.46;
+}
+.text-project{
+	margin-bottom: 22px;
+}
+ul,ol{
+	font-family: "Inter",sans-serif;
+	font-weight: 500;
+}
+ul{
+	padding-left: 16px;
+}
+ol{
+	padding-left: 17px;
+}
+li{
+	margin-bottom: 22px;
+}
+/* Блок euphoria */
+.block-euphoria {
+	max-width: 1240px;
+	margin: 0 auto 100px;
+	padding:0 21px;
+	font-family:"Causten", sans-serif;
+	font-size: 20px;
+	color: #807d7e;
+}
+.title-euphoria {
+	font-family: "CoreSansC",sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: #3c4242;
+	margin-bottom: 30px;
+	line-height: 1.2;
+}
+.euphoria-one {
+	margin-bottom: 25px;
+}
+.euphoria-two{
+	margin-bottom: 20px;
+}
+.sub-title-euphoria {
+	font-family:"CoreSansC", sans-serif;
+	font-weight: 700;
+	line-height: 1.68;
+	margin-bottom: 25px;
+}
+.text-euphoria p{
+	margin-bottom: 20px;
+	line-height: 1.68;
+	margin-bottom: 20px;
+}
+.block-euphoria a{
+	font-family: "CoreSansC", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+   line-height: 1.67;
+	color: #807d7e;
+}
+/* Блок Jewellery */
+.block-jewellery {
+	max-width: 1192px;
+	margin: 0 auto;
+	font-size: 0;
+	padding-top: 19px;
+	margin-bottom: 100px;
+}
+.jewelly-left {
+	max-width: 503px;
+	display: inline-block;
+	margin-right: 75px;
+	padding-top: 81px;
+}
+.sub-tiile-jewelly {
+	font-family: "Cormorant Infant", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #d58417;
+	margin-bottom: 27px;
+}
+.title-jewelly {
+	font-family: "Cormorant Infant",sans-serif;
+	font-size: 64px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 31px;
+}
+.jewelly-text {
+	font-family: "Cormorant Infant",sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #606060;
+	line-height: 1.4;
+}
+.img-one {
+	margin-right:10px;
+   vertical-align: baseline;
+	margin-left: -14px;
+	margin-bottom: -14px;
+}
+.img-two {
+	margin-left: -14px;
+	margin-bottom: -14px;
+}
+.border-one{
+	border: 1px solid #000;
+	border-radius:  200px;
+   display: inline-block;
+	margin-right: 30px;
+	padding: 5px;
+}
+.border-two{
+	border: 1px solid #000;
+	border-radius:  200px;
+   display: inline-block;
+	padding: 10px;
+   vertical-align: top;
+}
+/* Homework */
+.homework {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 0;
+	margin-bottom: 100px;
+}
+.homework-one {
+	max-width: 400px;
+	font-family:"Causten", sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align:top ;
+	padding: 10px;
+	border-top: 10px solid red;
+	border-right: 10px double green;
+	border-bottom: 10px solid rebeccapurple;
+	border-left: 10px double green;
+   opacity: 0.3;
+}
+.img-homework{
+	max-width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+	outline:5px dotted #d58417;
+	border-radius:150px ;
+	box-shadow: 5px 10px 10px 5px #e21934,10px 15px 10px 5px #c9eb0c,15px 20px 10px 5px #32057a;
+}
+.homework-three {
+	max-width: 400px;
+	font-family:"Causten", sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	padding: 20px;
+	border: 5px solid royalblue;
+	border-radius: 25px;
+	box-shadow: inset 5px 10px 10px 5px #3b3535, 5px 10px 10px 5px #3b3535 ;
+}
+.homework-three p{
+	color: #d58417;
+}
+.menu-bottom{
+	 border: 5px dotted #32057a;
+	 	display: inline-block;
+		padding: 20px;
+}
+.menu-bottom li a{
+	color: crimson;
+}
