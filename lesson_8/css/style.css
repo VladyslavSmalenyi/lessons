@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+/* Домашка практика */
+header{
+	max-width: 1400px;
+   background:radial-gradient(circle, rgba(63,94,251,1) 10%, rgba(76,77,74,0.7987570028011204) 98%);
+	padding: 50px;
+	margin:0 auto 50px;
+}
+
+.list-header li{
+	display: inline-block;
+	margin-right: 20px;
+	color: yellow;
+	outline: 2px solid rgb(223, 238, 12);
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	padding: 4px;
+}
+.block-homework{
+	max-width: 1100px;
+	margin: 0 auto 50px;
+}
+.fons-one{
+	background-image: url("../img/leaves2.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+   color: rgb(28, 6, 68);
+	margin-bottom: 50px;
+	font-family:"Inter", sans-serif;
+	font-weight: 600;
+}
+.fons-two{
+	max-width: 1100px;
+	min-height: 1000px;
+	padding-top: 30px;
+	padding-left: 430px;
+	border: 4px solid red;
+	background:
+	   url("../img/rocks.jpg") no-repeat right top / 400px, 
+	   url("../img/flowers2.jpg")  no-repeat 0 0 / 400px,
+		url("../img/road_1.jpg") no-repeat 0 bottom / 400px,
+		url("../img/waterfall.jpg") no-repeat right bottom / 400px,
+		url("../img/stones.jpg") repeat-x 50% 65% / 300px,
+		url("../img/leaves.jpg");
+}
+.text-fons-two{
+	max-width: 200px;
+	color: azure;
+}
+/* block-consulting */
+.block-consulting {
+	max-width: 673px;
+	margin: 0 auto 50px;
+}
+.block-consulting h5 {
+	font-family:"Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #37393f;
+	background: url("../img/background1.jpg") no-repeat 0 3px;
+	padding-left: 18px;
+	margin-bottom: 16px;
+}
+.title-consulting {
+	max-width: 413px;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	color: #37393f;
+	margin-bottom: 20px;
+}
+.text-consulting {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+	line-height: 1.46;
+	margin-bottom: 20px;
+}
+.text-consulting p{
+	margin-bottom: 15px;
+}
+.list-consulting {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	color: #37393f;
+	margin-bottom: 43px;
+}
+.item-list-consulting{
+	background: url("../img/vector1.png") no-repeat;
+	padding-top: 4px;
+	padding-left: 35px;
+	margin-bottom: 23px;
+	min-height:27px;
+}
+.block-logo {
+	max-width: 299px;
+	display: inline-block;
+	padding: 31px 37px 32px;
+	margin-right: 21px;
+	margin-bottom: 37px;
+	border: 1px solid #e3e3e3;
+	font-size: 0;
+}
+.sub-block-logo-one{
+	background: url("../img/icon1.png") no-repeat;
+	padding-left: 58px;
+}
+.sub-block-logo-two{
+	background: url("../img/icon2.png") no-repeat;
+	padding-left: 58px;
+}
+.sub-logo {
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #37393f;
+	margin-bottom: 3px;
+}
+.block-logo p{
+	font-family:"Inter",sans-serif;
+	font-size: 16px;
+	color: #7d7d7d;
+	line-height:1.46; 
+}
+.button {
+	max-width: 184px;
+	font-family: "Inter",sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #ffffff;
+	display: inline-block;
+	padding: 21px 27px 22px;
+   background-color: #6b77e5;
+}
+/* consulting-two */
+.consulting-two{
+	max-width: 1255px;
+	margin: 0 auto 50px;
+	font-size: 0;
+}
+.sub-title-consulting-two{
+	font-family:"Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	color: #37393f;
+	background: url("../img/background1.jpg") no-repeat 553px ;
+	padding-left: 18px;
+	margin-bottom: 14px;
+}
+.title-consulting-two {
+	font-family: "Poppins",sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	text-align: center;
+	color:#37393f ;
+	margin-bottom: 14px;
+}
+.text-discover {
+	font-family: "Inter",sans-serif;
+	font-size: 18px;
+	line-height: 1.46;
+	color: #7d7d7d;
+	margin-bottom: 47px;
+	text-align: center;
+}
+.img-consulting-first{
+	display: inline-block;
+	width: 384px;
+	min-height: 581px;
+	background: url("../img/photo1.jpg") no-repeat;
+	padding-top: 524px;
+	margin-right: 34px;
+}
+.img-name {
+	font-family: "Poppins",sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	color: #37393f;
+	margin-bottom: 10px;
+
+}
+.icon-data {
+	font-family: "Inter",sans-serif;
+	font-size: 14px;
+	line-height: 1.46;
+	color: #7d7d7d;
+	background: url("../img/icon3.png") no-repeat;
+	padding-left: 25px;
+}
+.img-consulting-first{
+   display: inline-block;
+	width: 384px;
+	min-height: 581px;
+	background: url("../img/photo1.jpg") no-repeat;
+	padding-top: 524px;
+	margin-right: 34px;
+	margin-bottom: 35px;
+}
+.img-consulting-second{
+   display: inline-block;
+	width: 384px;
+	min-height: 581px;
+	background: url("../img/photo2.jpg") no-repeat;
+	padding-top: 524px;
+	margin-right: 34px;
+	margin-bottom: 35px;
+}
+.img-consulting-third{
+   display: inline-block;
+	width: 384px;
+	min-height: 581px;
+	background: url("../img/photo3.jpg") no-repeat;
+	padding-top: 524px;
+	margin-right: 35px;
+	margin-bottom: 35px;
+}
+.img-consulting-fourth{
+   display: inline-block;
+	width: 384px;
+	min-height: 581px;
+	background: url("../img/photo4.jpg") no-repeat;
+	padding-top: 524px;
+	margin-right: 34px;
+}
+.img-consulting-fifth{
+   display: inline-block;
+	width: 384px;
+	min-height: 581px;
+	background: url("../img/photo5.jpg") no-repeat;
+	padding-top: 524px;
+	margin-right: 34px;
+}
+.img-consulting-sixth{
+   display: inline-block;
+	width: 384px;
+	min-height: 581px;
+	background: url("../img/photo6.jpg") no-repeat;
+	padding-top: 524px;
+	margin-right: 35px;
+}
+/* block-euphoria */
+.block-euphoria {
+	max-width: 1240px;
+	margin: 0 auto 50px;
+	/* padding-left: 21px; */
+   font-family: "CoreSansC",sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #807d7e;
+}
+.title-euphoria {
+	font-size: 28px;
+	color: #3c4242;
+	line-height: 1.19;
+	padding-left: 21px;
+	margin-bottom: 30px;
+	background: url("../img/mark.png") no-repeat ; 
+	/* спробувати background задати для батьківського елементу */
+
+}
+.subtitle-euphoria {
+	line-height: 1.68;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+.text-euphoria-one {
+   font-family: "Causten",sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.68;
+	padding-left: 20px;
+	margin-bottom: 25px;
+}
+.text-euphoria-two {
+   font-family: "Causten",sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.68;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.block-euphoria p{
+	margin-bottom: 20px;
+}
+.link-euphoria {
+	padding-left: 20px;
+	line-height: 1.68;
+}
+span{
+	font-weight: 700;
+}
+/* block-euphoria-two */
+.block-euphoria-two {
+	max-width: 1240px;
+	min-height: 640px;
+	margin: 0 auto 50px;
+	background: url("../img/leaf1.jpg") no-repeat,
+	            url("../img/team.jpg") no-repeat right;
+	padding: 183px 74px 0;
+}
+.content-euphoria-two{
+	max-width: 466px;
+}
+.title-euphoria-two {
+	font-family:"CoreSansC",sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	color: #fff;
+	line-height: 1.47;
+   margin-bottom: 30px;
+}
+.text-euphorsa-two {
+	font-family: "Causten",sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 50px;
+	letter-spacing:1px ;
+}
+.button-euphoria-two {
+	max-width: 168px;
+	font-family: "Causten", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+   padding: 12px 44px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.button-euphoria-two a{
+	color: #3c4242;
+}
+.bottom{
+	font-family: "Causten", sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	color: #6b77e5;
+}
