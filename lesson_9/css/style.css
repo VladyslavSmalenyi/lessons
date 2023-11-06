@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+@import url("reset.css");
+.list-header li{
+	font-size: 25px;
+	color: #313daf;
+}
+.list-header > *:not(:last-child){
+	margin-bottom: 20px;
+}
+.list-header li:hover{
+	color: #040833;
+	text-transform: uppercase;
+}
+/* Домашка практика */
+.homework{
+	margin-bottom: 50px;
+}
+.list-homework {
+	max-width: 300px;
+	margin: 0 auto;
+   padding: 20px;
+	border: 2px solid rosybrown;
+	
+}
+.list-homework li:last-child{
+	margin: 0;
+}
+.list-homework li{
+	padding: 20px;
+	margin-bottom: 40px;
+	border:2px solid blue;
+	background: rgba(128, 128, 128, 0.308);
+}
+.list-homework li:hover{
+	background:rgba(137, 43, 226, 0.507) ;
+	border: 2px dashed yellow;
+}
+.list-homework li:active{
+	color: brown;
+	border-radius: 30px;
+	text-decoration: underline;
+	/* на падинге не работает */
+	background: rgba(128, 128, 128, 0.11);
+}
+.block-homework{
+	max-width: 400px;
+	min-height: 500px;
+	margin:50px 0 50px 100px;
+	border: 2px solid rebeccapurple;
+}
+.block-homework{
+	background: url("../img/flowers2.jpg") no-repeat ;
+}
+.block-homework:hover{
+	background: url("../img/leaves.jpg") no-repeat 0 0 / cover;
+}
+.block-homework:active{
+	max-width: 800px;
+   background: url("../img/rocks.jpg")no-repeat 0 0 / cover;
+}
+.text-homework{
+	border: 2px solid royalblue;
+	margin: 0 auto 50px;
+
+}
+.text-homework p{
+	min-height: 27px;
+}
+.text-homework p:not(:last-child){
+	margin-bottom: 20px;
+}
+.text-homework p:first-child{
+	color: chocolate;
+	text-transform: capitalize;
+}
+.text-homework p:nth-child(3){
+	color:red;
+}
+.text-homework p:nth-child(even) {
+	color: blue;
+	
+}
+.text-homework p::before{
+	background: url("../img/vector1.png") no-repeat center  ;
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.text-homework p::after{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	border-top: 10px solid transparent;
+	border-bottom: 10px  solid transparent;
+	border-left: 20px solid red;
+}
+.text-homework a{
+	color: rgb(115, 182, 8);
+	font-weight: 700;
+	text-decoration: underline;
+}
+.text-homework a:hover{
+	color: rgb(99, 97, 4);
+}
+.focus{
+	max-width: 470px;
+	padding-bottom: 50px;
+}
+.focus a{
+	margin-bottom: 30px;
+	display: block;
+}
+.focus a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.focus a:last-child{
+	margin-bottom: 0;
+}
+.focus a:first-child{
+background-color: rgb(104, 151, 28);
+padding: 20px;
+text-align: center;
+visibility: hidden;
+}
+.focus a:target{
+	visibility: visible;
+}
+.focus a:visited{
+	color: rgb(105, 99, 99);
+}
+.focus a:focus{
+	outline: 2px solid red;
+}
+/* game */
+.game{
+	max-width: 1000px;
+	margin: 0 auto;
+	border: 2px solid rebeccapurple;
+	font-size: 0;
+   padding: 10px;
+}
+.game h2{
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+.game-one {
+	width: 100px;
+	height: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	color: bisque;
+	text-align: center;
+	display: inline-block;
+	background-color: brown;
+	vertical-align: top;
+}
+.game-two {
+	width: 200px;
+	height: 20px;
+	vertical-align: top;
+	display: inline-block;
+	background-color: chartreuse;
+	visibility: hidden;
+}
+.game-one:hover ~ .game-two,.game-two:hover{
+	visibility: visible;
+}
+.game-three{
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	background-color: rgb(65, 40, 40);
+	visibility: hidden;
+	vertical-align:top;
+}
+.game-two:hover ~ .game-three,.game-three:hover{
+	visibility: visible;
+}
+.game-four{
+	width: 20px;
+	height: 60px;
+	display: inline-block;
+	background-color: rgb(165, 42, 165);
+	visibility: hidden;
+	
+}
+.game-three:hover ~ .game-four,.game-four:hover{
+	visibility: visible;
+}
+.game-four:hover ~ .game-five,.game-five:hover{
+	visibility: visible;
+}
+.game-five{
+	width: 200px;
+	height: 20px;
+	display: inline-block;
+	background-color: rgb(255, 208, 0);
+	
+	visibility: hidden;
+}
+.game-five:hover ~ .game-six,.game-six:hover{
+	visibility: visible;
+}
+.game-six{
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	background-color: rgb(255, 0, 0);
+	visibility: hidden;
+}
+.game-seven{
+	width: 20px;
+	height: 60px;
+	background-color: rgb(17, 36, 5);
+	margin-left: 700px;
+	visibility: hidden;
+}
+.game-six:hover ~ .game-seven,.game-seven:hover{
+	visibility: visible;
+}
+.game-eight{
+	width: 400px;
+	height: 20px;
+	display: block;
+	background-color: rgb(171, 219, 25);
+	margin-left: 320px;
+	visibility: hidden;
+}
+.game-seven:hover ~ .game-eight,.game-eight:hover{
+	visibility: visible;
+}
+.game-nine{
+	width: 20px;
+	height: 60px;
+	display: block;
+	background-color: rgb(95, 72, 180);
+	margin-left: 320px;
+	visibility: hidden;
+}
+.game-eight:hover ~ .game-nine,.game-nine:hover{
+	visibility: visible;
+}
+.game-ten{
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-color: rgb(170, 72, 14);
+	margin-left: 320px;
+	visibility: hidden;
+}
+.game-nine:hover ~ .game-ten,.game-ten:hover{
+	visibility: visible;
+}
+.game-eleven{
+	width: 100px;
+	height: 50px;
+	color: brown;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+	display: block;
+	background-color: rgb(136, 123, 116);
+	border-radius: 40px;
+	margin-left: 280px;
+	visibility: hidden;
+}
+.game-ten:hover ~ .game-eleven,.game-eleven:hover{
+	visibility: visible;
+}
+/*consulting-one*/
+.consulting-one {
+	max-width: 692px;
+	margin: 0 auto;
+	font-family: "Inter",sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+	margin-bottom: 45px;
+}
+.consulting-one h2{
+	max-width: 516px;
+	font-family: "Poppins",sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: #37393f;
+	line-height: 1.27;
+	margin-bottom: 3px;
+}
+.text-cosulting {
+	margin-bottom: 42px;
+	line-height: 1.46;
+}
+.subtitle-consulting {
+	font-family: "Poppins",sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+.color-blue{
+	color: #6b77e5;
+	margin-bottom: 12px;
+}
+/* Не знаю чи вірний чей запис */
+.consulting-one :nth-child(4){
+	margin-bottom: 40px;
+}
+.subblock-consultsng{
+font-size: 0;
+margin-bottom: 50px;
+}
+.subblock-consultsng img{
+	margin-right: 29px;
+}
+.benefits {
+	max-width: 332px;
+	display: inline-block;
+}
+.benefits h3:first-child{
+	font-family: "Poppins",sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	color: #37393f;
+	margin-bottom: 15px;
+	line-height: 1.27;
+}
+.color-turquoise{
+	color: #40ddb6;
+	margin-bottom: 21px;
+}
+.list-benefits li{
+	font-size: 18px;
+}
+.list-benefits > *:not(:last-child){
+	margin-bottom: 30px;
+}
+.list-benefits li::before{
+	content: "";
+	background: url("../img/vector2.svg") 0 0 no-repeat;
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+}
+/* consulting-two */
+.consulting-two {
+	max-width: 692px;
+	margin: 0 auto;
+	font-family: "Inter",sans-serif;
+	font-size: 18px;
+	color: #7d7d7d;
+	margin-bottom: 45px;
+}
+.consulting-two{
+   font-family: "Inter",sans-serif;
+	font-size: 18px;
+	color: #37393f;
+}
+.consulting-two h5{
+   font-weight: 500;
+	background:url("../img/background1.jpg") no-repeat 0 3px ;
+	padding-left: 18px;
+	margin-bottom: 16px;
+}
+.consulting-two h2{
+	max-width: 414px;
+	font-family: "Poppins",sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #37393f;
+	line-height: 1.21;
+	margin-bottom: 10px;
+}
+.text-consulting-two p{
+	margin-bottom: 16px;
+	line-height: 1.46;
+}
+.text-consulting-two > *:last-child{
+	margin: 0;
+}
+ .consulting-two .text-consulting-two{
+	margin-bottom: 48px;
+}
+.block-list {
+	margin-bottom: 48px;
+}
+.sub-block-list {
+padding: 28px 41px 28px 84px;
+border: 1px solid#37393f;
+background: url("../img/vector2.svg") no-repeat 38px 26px ;
+margin-bottom: 31px;
+}
+.sub-block-list > *.text-consulting-two{
+	margin-bottom: 0;
+}
+.sub-block-list h4{
+	font-family: "Poppins",sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #37393f;
+	margin-bottom: 12px;
+}
+.button-consulting-two {
+	display: inline-block;
+	font-family: "Inter",sans-serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	padding: 22px 35px;
+	background-color:#6b77e5 ;
+	color: #fff;
+}
+.button-consulting-two:hover{
+	background-color: #a8abbe;
+}
+/* consulting-three */
+.consulting-three {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding-bottom: 200px;
+	font-size: 0;
+}
+.consulting-three h5{
+	font-family: "Inter",sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #37393f;
+	margin-left: 542px;
+	padding-left: 18px;
+	margin-bottom: 16px;
+	background: url("../img/background1.jpg") no-repeat 0 4px;
+	
+}
+.consulting-three h2{
+	font-family: "Poppins",sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.21;
+	padding-left: 35px;
+	margin-bottom: 41px;
+}
+.sub-consulting-three {
+	max-width: 386px;
+	display: inline-block;
+	font-size: 18px;
+	padding: 0 43px 58px;
+	text-align: center;
+	background-color:#f4f4f4 ;
+
+}
+.sub-consulting-three h4{
+	font-family: "Poppins",sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	color: #37393f;
+	line-height: 1.27;
+	margin-bottom: 16px;
+}
+.consulting-three > *:not(:last-child){
+	margin-right: 31px;
+}
+/* Не зрозумів, як зробити  щоб іконка була всередені блоку і не була залита background-color(передивився перевірки домашок), і якщо добовляти як img через HTML(щоб була можливість заміняти іконки Анжелою, теж не знайшов рішення, через background-color */
+.sub-consulting-three img{
+	margin-bottom: 22px;
+}
+.sub-consulting-three p{
+	margin-bottom: 16px;
+}
+.sub-consulting-three a{
+	font-family: "Inter",sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #6b77e5;
+	text-transform: capitalize;
+}
+.sub-consulting-three a:hover{
+	color:#313daf ;
+text-decoration: underline;
+}
+/* block-jewellere */
+.block-jewellere {
+	max-width: 1234px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.sub-jewellere-one {
+	max-width: 488px;
+	display: inline-block;
+	font-family: "Cormorant Infant",sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.15;
+	color: #000;
+	vertical-align: top;
+	padding-top: 156px;
+	margin-right: 3px;
+}
+.sub-jewellere-one h2{
+	margin-bottom: 13px;
+}
+.line{
+	max-width: 304px;
+	border: 2px solid #78473b;
+}
+.block-jewellere img{
+	width: 334px;
+	height:381px;
+	margin-right: -12px;
+	margin-bottom: -15px;
+	padding:  9px 10px;
+}
+.sub-jewellere-two {
+	max-width: 344px;
+	display: inline-block;
+	margin-right: 55px;
+	vertical-align: top;
+	padding-top: 44px;
+}
+.sub-jewellere-three {
+	max-width: 344px;
+	display: inline-block;
+}
+.sub-jewellere-three h3{
+	max-width: 339px;
+	font-family: "Cormorant Infant",sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.13;
+	margin-bottom: 40px;
+}
+.price {
+	font-family: "Cormorant Infant",sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+.price > *p:not(:last-child){
+	margin-bottom: 4px;
+}
+
+.border-img{
+	
+	display: inline-block;
+	border:1px solid #000;
+	margin-bottom: 25px;
+}
+.block-jewellere img:hover{
+	border-radius: 100px;
+	border: 1px solid brown;
+}
+.block-jewellere img:hover{
+	margin-right: 0;
+	margin-bottom: 0px;
+	padding:  0 0;
+}
+.block-jewellere img:hover ~ .border-img, .border-img:hover{
+	border:1px solid #fff;
+}
+.up{
+	width: 150px;
+	height: 80px;
+	font-size: 30px;
+	font-weight: 600;
+	color: chartreuse;
+	background-color: blue;
+	text-align: center;
+	padding-top: 25px;
+}
+.up:hover{
+	background-color: rgb(255, 0, 170);
+	border-radius: 10px;
+	
+}
