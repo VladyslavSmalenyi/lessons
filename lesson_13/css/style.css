@@ -1,0 +1,318 @@
+@import url("reset.css");
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+}
+.header--margin{
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+.header__title h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: blue;
+	text-decoration: underline;
+	text-align: center;
+}
+.main--margin {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding:100px 20px 0;
+   font-size: 0;
+	text-align: center;
+	background-color: rgb(118, 121, 115);
+}
+/* car */
+.car--width{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	margin: 0 auto;
+}
+.car__roof{
+	position: absolute;
+	top:0;
+	left: 200px;
+	width: 300px;
+	height: 40px;
+	background-color: rgb(153, 165, 42);
+	border-radius: 48% 52% 52% 48% / 100% 100% 0% 0%;
+	transform: rotateX(-80deg);
+}
+
+.car__windshield{
+	position: absolute;
+	top: 26px;
+	left: 510px;
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid black;
+	border-right: 100px solid transparent;
+	transform: skewX(15deg);
+}
+.car__window{
+	position: absolute;
+	top: 23px;
+	left: 160px;
+	width: 170px;
+	height: 80px;
+	background-color: #0e0d0d;
+	border-top-left-radius: 60px;
+	transform: skewX(15deg);
+}
+.car__window-right{
+	position: absolute;
+	top: 23px;
+	left: 350px;
+	width: 150px;
+	height: 80px;
+	background-color: black;
+	transform: skewX(15deg);
+}
+.car__insert-one{
+	position: absolute;
+	top: 23px;
+	left: 329px;
+	width: 22px;
+	height: 82px;
+	background-color: rgb(153, 26, 26);
+	transform: skewX(15deg);
+}
+.car__insert-two{
+	position: absolute;
+	top: 23px;
+	left: 500px;
+	width: 12px;
+	height: 78px;
+	background-color: rgb(153, 26, 26);
+	border-top-right-radius: 10px;
+	transform: skewX(15deg);
+}
+.car__door{
+	position: absolute;
+	top: 102px;
+	left: 353px;
+	width: 150px;
+	height: 80px;
+	background-color: rgb(153, 165, 42);
+	transform: skewX(-10deg);
+	border: 1px solid rgb(153, 26, 26);
+}
+.car__side{
+	position: absolute;
+	top: 102px;
+	left: 163px;
+	width: 190px;
+	height: 80px;
+	background-color: rgb(153, 165, 42);
+	transform: skewX(-10deg);
+	border-bottom-left-radius: 30px;
+}
+.car__hood{
+	position: absolute;
+	top: 102px;
+	left: 504px;
+	width: 200px;
+	height: 80px;
+	background-color: rgb(153, 165, 42);
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 20px;
+	transform: skewX(-10deg);
+}
+.car__bottom{
+	position: absolute;
+	top: 182px;
+	left: 180px;
+	width: 500px;
+	height: 10px;
+	background-color: rgb(41, 37, 37);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius:20px ;
+}
+.car__taillight{
+	position: absolute;
+	top: 150px;
+	left: 160px;
+	width: 15px;
+	height: 20px;
+	background-color: #ec240a;
+	border-radius: 10px;
+}
+.car__taillight:nth-child(13){
+	position: absolute;
+	top: 120px;
+	left: 165px;
+	transform:skewX(-6deg);
+}
+.car__headlights{
+	position: absolute;
+	top: 102px;
+	left: 660px;
+	width: 40px;
+	height: 20px;
+	background-color: #ecb00a;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 10px;
+}
+.car__wheel{
+	position: absolute;
+	top: 150px;
+	left: 210px;
+	z-index: 1;
+	width: 85px;
+	height: 85px;
+	background: rgb(8, 8, 8);
+	border-radius: 50px;
+}
+.car__disc{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 2;
+	width: 60%;
+	height: 60%;
+	background-color: rgb(209, 200, 200);
+	border-radius: 50%;
+}
+.car__wheel:last-child{
+	position: absolute;
+	top: 150px;
+	left: 530px;
+	z-index: 1;
+}
+
+/* transform */
+.block--margin{
+	position:relative;
+}
+.block__item {
+	width: 200px;
+	height: 250px;
+	display: inline-block;
+	border: 2px solid rgb(157, 168, 6);
+}
+.block__item:not(:nth-child(5n)){
+	margin-right: 20px;
+}
+.block__item{
+margin-bottom: 20px;
+}
+.image__item {
+	width: 100%;
+	height: 100%;
+}
+.block .image--transform:first-child:hover .image__item{
+	transform: translate(-30px, -30px);
+}
+.block .image--transform:nth-child(2){
+	position:relative;
+	z-index: 20;
+	
+}
+.block .image--transform:nth-child(2):hover .image__item{
+	transform: scale(2);
+}
+.block .image--transform:nth-child(3):hover .image__item{
+	transform: rotateY(180deg);
+}
+.block .image--transform:nth-child(4):hover .image__item{
+	transform: rotate(180deg) scale(0.5);
+}
+.block .image--transform:nth-child(5):hover .image__item{
+	transform: skew(30deg,20deg);
+	position: relative;
+	z-index: 21;
+}
+.block .image--transform:nth-child(6):hover .image__item{
+	transform-origin: right top;
+	transform: rotate(180deg);
+	position: relative;
+	z-index: 21;
+}
+.block .image--transform:nth-child(7){
+	perspective: 250px;
+	perspective-origin: center;
+}
+.block .block__item:nth-child(7) .image__block{
+	width: 196px;
+	height: 246px;
+}
+.image__text{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+.block .image--transform:nth-child(7):hover .image__block{
+	transform: rotateX(40deg);
+}
+
+.block .image--transform:nth-child(8){
+	perspective: 500px;
+	transform-style:flat;
+	background-color: blueviolet;
+}
+.block .block__item:nth-child(8):hover .image__item{
+	transform: rotateX(50deg) ;
+}
+.block .image--transform:nth-child(9){
+	position: relative;
+	perspective: 300px;
+	transform-style: preserve-3d;
+	background-color: blueviolet;
+	z-index: 2;
+}
+.block .block__item:nth-child(9):hover .image__item{
+	transform: rotateX(50deg) skew(50deg) translate(30px);
+}
+/* card */
+.block .block__item:nth-child(10){
+	width: 200px;
+	height: 250px;
+	perspective: 500px;
+}
+.block .block__item:nth-child(10) .image__item-one{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.block .block__item:nth-child(10) .image__item-two{
+	width: 100%;
+	height: 100%;
+}
+.block .block__item:nth-child(10) .image__item-one{
+	transform: rotateY(0deg);
+	backface-visibility: hidden;
+}
+.block .block__item:nth-child(10) .image__item-two{
+	transform: rotateY(-180deg);
+}
+.block .block__item:nth-child(10):hover .image__item-two{
+	transform: rotateY(0deg);
+}
+.block .block__item:nth-child(10):hover .image__item-one{
+	transform: rotateY(180deg);
+}
+
+/* footer */
+.footer--width{
+	text-align: center;
+}
+.footer__link{
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: darkblue;
+	padding: 20px 400px;
+	background-color:yellowgreen;
+}
+.footer__link:hover{
+	color:rgb(49, 49, 119) ;
+	text-decoration: underline;
+}
